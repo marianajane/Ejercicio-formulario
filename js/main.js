@@ -23,7 +23,8 @@ function translate(){
 
 function mostrarDatos(){
     document.getElementById("datosform").innerHTML= "Datos Formulario";
-    document.getElementById("correo").innerHTML= "El correo electrónico ingresado es: " + email.value; 
+    document.getElementById("correo").innerHTML= "El correo electrónico ingresado es: "  + email.value; 
+    document.getElementById("pass").innerHTML= "La contraseña es: " + password.value; 
 
 }
 
